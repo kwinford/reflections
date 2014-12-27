@@ -1,0 +1,21 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+Answer: Using the diff command on the previous exercise elievated all the extra code. It only showed what was changed. Therefore it was easier to locate the problems. Had all the code from both files been
+showing, it would had taken an extensive time to locate the error. In fact it may not have been found.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+Answer: Having listened to the Udacity presentation and also Lynda.com, the biggest thing for having a history is to be able revert back to past versions if need be. Also see who made the changes and list of all those changes that is listed in the history.  With the history you can ascertian what specific changes have been made over time.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Google Docs are dealing with documents and not coding projects. It is necessary in a coding project to have the ablity to save multi files at one time.
+
+How can you use the commands git log and git diff to view the history of files?
+Help me track my changes to my project. Also if there is an error, I reduce the amount of code to search to find the problem. I can track the number of changes I make, who made those changes and when those changes were done.
+
+How might using version control make you more confident to make changes that could break something?
+By letting you to run earlier versions you can find the commit that worked properly. Then doing the git diff command with the version that worked and the version that introduced the bug, you can remove only the code that was changed making it easier to spot the error.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+I am the founder of a non-profit ministry that works at-risk-young adults that I have already built a website for and is in use. However, I am going to start having some rotating content on a weekly and monthly bases. Version control will help me maintain a library of past verisions.
+
+What happens when you initialize a repository? Why do you need to do it?
+It creates a .git repostitory file in your folder that you created. You need to iniitialize the repository so the system can setup the folder to receive the commits. Unless you do this initial step the prepared folder does not exist.
