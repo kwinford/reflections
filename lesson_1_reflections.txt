@@ -19,3 +19,6 @@ I am the founder of a non-profit ministry that works at-risk-young adults that I
 
 What happens when you initialize a repository? Why do you need to do it?
 It creates a .git repostitory file in your folder that you created. You need to iniitialize the repository so the system can setup the folder to receive the commits. Unless you do this initial step the prepared folder does not exist.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+Most version control systems use just the working directory, which is the actual copy that you are working on, and the repository, which is where you save the version. However git adds a staging area, it is like a loading dock, that lets you save the versions you are working on and decide if you want to ship it (commit) or not.  It allows you to work on your project and when you are ready you then commit it to the repository. Therefore you will not end up with an endless of versions.
