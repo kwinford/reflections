@@ -22,3 +22,15 @@ It creates a .git repostitory file in your folder that you created. You need to 
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 Most version control systems use just the working directory, which is the actual copy that you are working on, and the repository, which is where you save the version. However git adds a staging area, it is like a loading dock, that lets you save the versions you are working on and decide if you want to ship it (commit) or not.  It allows you to work on your project and when you are ready you then commit it to the repository. Therefore you will not end up with an endless of versions.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+When you are experimenting with a new versions, new features, changing the layout.
+
+How do the diagrams help you visualize the branch structure?
+It helps me see each of the parent commits. Diagrams help you to see history and the big picture.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+the coin is now visable in the game. to make it easier to understand the structure of parent commits and how the merge works.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Doing automatic merges saves an enormous amount of time. However the con is that sometimes there are conflicts that need to be worked out. However the big reason for an auto merge is the time savings making one more productive.
