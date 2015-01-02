@@ -2,3 +2,5 @@ Why might you want to always pull changes manually rather than having Git automa
 Because you can have more control over the pulls. 
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 fork is taking a file from an existing GitHub account and moving into a new file in your GitHub account. Therefore you can use the base of their program and you can add your code as you like. Clone however is making an exact copy of file and allows you to collaborate with other team members. However cloning does not create a fork and new file repository. a branch is taking from a master version and makign changes. However branching will show that the master or whatever commit you branched from as the parent. You can combine the two once changes into a new branch.
+
+What is the benefit of having a copy of the last known status of the remote stored locally? So if you get on the plane and don't have access to the remote you can work offline and commit once you have access to the remote again.
