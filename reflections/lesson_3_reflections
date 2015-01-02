@@ -7,3 +7,5 @@ What is the benefit of having a copy of the last known status of the remote stor
 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 You could use email and instant messaging to collaborate. You can use folders and files on a server. However this class has shown that using GitHub would make it easier.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have? when you are trying out a new feature. This keeps us from messing up the master, until we work out all the bugs on the new feature.
